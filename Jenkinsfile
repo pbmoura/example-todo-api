@@ -20,7 +20,7 @@ node('php'){
                 sh 'php artisan config:cache'
             },
             'config route': {
-                sh 'php artisan route:cache'
+                sh 'php artisan'
             }
         )
     }
